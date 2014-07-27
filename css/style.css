@@ -6,6 +6,10 @@ body {
   background-color: black;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -16,6 +20,7 @@ body {
 
 /* Custom page header */
 .header {
+  padding-bottom: 5px;
   border-bottom: 1px solid white;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -25,6 +30,16 @@ body {
   margin-bottom: 0;
   line-height: 40px;
   color: white;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.table>tbody>tr>td.timestamp {
+  vertical-align: middle;
 }
 
 /* Custom page footer */
