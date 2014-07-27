@@ -67,6 +67,14 @@ h2 {
   margin-top: 28px;
 }
 
+.cryptobadge {
+  text-align: center;
+}
+
+.cryptobadge img {
+  margin: 0 auto;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
