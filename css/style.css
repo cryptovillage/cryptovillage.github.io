@@ -75,6 +75,13 @@ h2 {
   margin: 0 auto;
 }
 
+.talk img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #888888;
+  margin-bottom: 5px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
