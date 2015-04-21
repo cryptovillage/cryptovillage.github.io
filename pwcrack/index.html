@@ -49,25 +49,25 @@
   }
 
   function secondsToReadable(seconds) {
-    minutes = ~~(seconds / 60);
-    hours = ~~(minutes / 60);
-    days = ~~(hours / 24);
-    weeks = ~~(days / 7);
-    year = ~~(days / 365);
-    if (year > 0) {
-      return year + " years"
+    minutes = (seconds / 60);
+    hours = (minutes / 60);
+    days = (hours / 24);
+    weeks = (days / 7);
+    year = (days / 365);
+    if (year >= 1) {
+      return Math.floor(year) + " years"
     }
-    if (weeks > 0) {
-      return weeks + " weeks";
+    if (weeks >= 1) {
+      return Math.floor(weeks) + " weeks";
     }
-    if (days > 0) {
-      return days + " days";
+    if (days >= 1) {
+      return Math.floor(days) + " days";
     }
-    if (hours > 0) {
-      return hours + " hours";
+    if (hours >= 1) {
+      return Math.floor(hours) + " hours";
     }
-    if (minutes > 0) {
-      return minutes + " minutes";
+    if (minutes >= 1) {
+      return Math.floor(minutes) + " minutes";
     }
     return "Less than a minute.";
   }
