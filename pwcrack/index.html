@@ -48,6 +48,30 @@
     $('.progress-bar').css('width', percent+'%').attr('aria-valuenow', percent);
   }
 
+  function secondsToReadable(seconds) {
+    minutes = ~~(seconds / 60);
+    hours = ~~(minutes / 60);
+    days = ~~(hours / 24);
+    weeks = ~~(days / 7);
+    year = ~~(days / 365);
+    if (year > 0) {
+      return year + " years"
+    }
+    if (weeks > 0) {
+      return weeks + " weeks";
+    }
+    if (days > 0) {
+      return days + " days";
+    }
+    if (hours > 0) {
+      return hours + " hours";
+    }
+    if (minutes > 0) {
+      return minutes + " minutes";
+    }
+    return "Less than a minute.";
+  }
+
   function displayResults() {
     var card = 2136000000;
     var spc = 55000/3.8 * card;
@@ -78,12 +102,12 @@
 
     var dictKeySpace = dictSize * Math.pow((2 * charset * shortestWord.length), shortestDist);
 
-    $('#hacker-brute').html((bruteKeySpace/hacker/60/60/24/2).toFixed(0) + " days");
-    $('#govt-brute').html((bruteKeySpace/spc/60/60/24/2).toFixed(0) + " days");
+    $('#hacker-brute').html(secondsToReadable(bruteKeySpace/hacker/2));
+    $('#govt-brute').html(secondsToReadable(bruteKeySpace/spc/2));
 
 
-    $('#hacker-dict').html((dictKeySpace/hacker/60/60/24/2).toFixed(0) + " days");
-    $('#govt-dict').html((dictKeySpace/spc/60/60/24/2).toFixed(0) + " days");
+    $('#hacker-dict').html(secondsToReadable(dictKeySpace/hacker/2));
+    $('#govt-dict').html(secondsToReadable(dictKeySpace/spc/2));
 
     percent = 0;
     updateProgress();
