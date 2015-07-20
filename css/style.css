@@ -39,3 +39,27 @@ body {
   background-color: #444;
 }
 
+.schedule-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.schedule-table .darker {
+  background-color: #888;
+}
+
+.schedule-table .dark {
+  background-color: #ccc;
+}
+
+.schedule-table .light {
+  background-color: #ddd;
+}
+
+.schedule-table .title-bar {
+  background-color: #F00;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
