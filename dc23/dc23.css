@@ -1,0 +1,40 @@
+table { border-collapse: collapse; }
+td {
+    margin: 0;
+    padding: 6px;
+    border: 1px solid #000;
+}
+
+td.title-bar {
+    background: #f00;
+    color: #fff;
+    font-size: 165%;
+}
+
+td.dark {
+    background: #ccc;
+    color: inherit;
+}
+
+td.light {
+    background: #ddd;
+    color: inherit;
+}
+
+.talk {
+    background: #eee;
+    color: inherit;
+    border-bottom: 1px solid #444;
+    margin-bottom: 16px;
+    padding: 12px;
+    /*display: block;*/
+    /*clear: both;*/
+}
+
+.talk:last-of-type {
+    margin-bottom: 0;
+}
+
+.talk div { text-align: center; }
+
+small { color: #ddd; }
