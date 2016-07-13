@@ -1,0 +1,82 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.talk-title {
+  padding: 20px;
+}
+
+.talk img {
+  width: 100%;
+}
+.centered-image {
+  text-align: center;
+}
+.cpv-header .navbar{
+  border: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background-color: #444;
+}
+.cpv-header .navbar-brand {
+  color: #fff;
+}
+.cpv-header .navbar-nav>li.active {
+  background-color: #fff;
+}
+.cpv-header .navbar-nav>li.active>a {
+  color: #446cb3;
+}
+.cpv-header .navbar-nav>li:hover>a {
+  color: #446cb3;
+}
+.cpv-header .navbar-nav>li>a {
+  color: #fff;
+}
+
+.cpv-header-wrapper {
+  background-color: #444;
+}
+
+.schedule-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.schedule-table .darker {
+  background-color: #888;
+}
+
+.schedule-table .dark {
+  background-color: #ccc;
+}
+
+.schedule-table .light {
+  background-color: #ddd;
+}
+
+.schedule-table .title-bar {
+  background-color: #F00;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.schedule-table a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 100%;
+}
+
+.speakers-table td {
+  border: 1px solid black;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.schedule-table a:hover {
+  background-color: #eee;
+}
