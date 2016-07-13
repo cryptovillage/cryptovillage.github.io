@@ -115,6 +115,11 @@ a.button:hover {
     box-shadow: 2px 2px 2px -2px rgba(0,0,0,0.75);
 }
 
+ul.navlist { padding: 4pt 0; margin: 4pt 0; }
+ul.navlist li { display: inline; }
+ul.navlist li:before { content: "\025C6"; margin: 0 8pt;}
+ul.navlist li:first-of-type:before { content: ""; margin: 0 1pt; }
+
 /** small screens **/
 @media screen and (max-width: 600px), (max-device-width:480px) {
     body { font-size: 32px; margin-left: 70px; }

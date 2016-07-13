@@ -11,6 +11,11 @@ td.title-bar {
     font-size: 165%;
 }
 
+td.darker {
+    background: #888;
+    color: inherit;
+}
+
 td.dark {
     background: #ccc;
     color: inherit;
