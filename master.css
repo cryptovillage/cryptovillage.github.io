@@ -120,10 +120,17 @@ ul.navlist li { display: inline; }
 ul.navlist li:before { content: "\025C6"; margin: 0 8pt;}
 ul.navlist li:first-of-type:before { content: ""; margin: 0 1pt; }
 
+.timeline {
+    max-width: 600px;
+    margin-right: 12px;
+    float: left;
+}
+
 /** small screens **/
 @media screen and (max-width: 600px), (max-device-width:480px) {
     body { font-size: 32px; margin-left: 70px; }
     header { padding-left: 70px; }
     header ul, header h1 { text-align: center; }
     header ul { padding-left: 140px; }
+    .timeline { float: none; max-width: 90%; text-align: center;}
 }
