@@ -133,4 +133,5 @@ ul.navlist li:first-of-type:before { content: ""; margin: 0 1pt; }
     header ul, header h1 { text-align: center; }
     header ul { padding-left: 140px; }
     .timeline { float: none; max-width: 90%; text-align: center;}
+    #google-calendar iframe { display: none; }
 }
