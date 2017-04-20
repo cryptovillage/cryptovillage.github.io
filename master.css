@@ -1,8 +1,8 @@
 /* (c) 2013 Crypto & Privacy Village */
 
 body {
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #333;
     border: 0;
     margin: 0 10pt 0 140px;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 
 p, td, th, li, h1, h2, h3, h4, h5, h6, dt, dd, a {
     background: transparent;
-    color: #000;
+    color: #333;
 }
 
 a {
@@ -68,19 +68,17 @@ header h1, header li {
 
 header img { border: 0;  float: left; width: 128px; height: 128px; padding-right: 12px;}
 header h1 { margin: 0; padding: 0; }
-header ul { padding: 4pt 0; margin: 4pt 0; background: #444; color: inherit; }
-header ul li { display: inline; }
-header ul li:before { content: "\025C6"; margin: 0 8pt;}
-header ul li:first-of-type:before { content: ""; margin: 0 1pt; }
-header a:link, a:active { color: #fff; border-bottom-color: #ccc;}
-header a:visited { color: #ccc; border-bottom-color: #999; }
+header ul { padding: 8pt 0; margin: 4pt 0; background: #444; color: inherit; }
+header ul li { display: inline; margin: 0 10pt; }
+header a:link, a:active { color: #fff; border-bottom: none;}
+header a:visited { color: #fff; border-bottom: none; }
 header h1 a, header h1 a:link, header h1 a:active, header h1 a:visited, header h1 a:hover {
     color: #fff;
     text-decoration: none;
     border: 0;
 }
 
-/*.clear { clear: both; }*/
+.clear { clear: both; }
 div.current_village {
     background: #ddd;
     color: inherit;
@@ -124,6 +122,12 @@ ul.navlist li:first-of-type:before { content: ""; margin: 0 1pt; }
     max-width: 600px;
     margin-right: 12px;
     float: left;
+}
+
+.page-content {
+  background: #fff;
+  padding: 30px;
+  margin: 20px;
 }
 
 /** small screens **/
