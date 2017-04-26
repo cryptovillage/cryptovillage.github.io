@@ -5,19 +5,21 @@ title: Volunteer Info
 ---
 ## Volunteer Info
 
-Running CPV at DC25 in Las Vegas July 28-30, 2017 would not be possible without volunteers. So this is a shoutout for all, who would be interested to contribute their time to this event.
+The Crypto & Privacy Village would not be possible without volunteers. Thank you to all of our volunteers for helping make the Crypto & Privacy Village at DEF CON possible! 
 
-This year we have changed things a bit. There will be 3 roles for volunteering
+We are currently looking for volunteers for the CPV @ DEF CON 25 (July 27-30, 2017).
+
+We've changed the format a bit. There are 3 volunteer roles 3:
 
 - Info desk
 - Speaker ops
 - Crowd control
 
-which all have its own important role to make CPV successful. All volunteers who signup for 2 shifts or more will get
+Each play an important and vital role to make CPV successful. All volunteers who signup for 2 shifts or more will receive:
 
-- Cool volunteer shirt
-- Special CPV volunteer badge (not equivalent to defcon badge)
-- Other swag we may come up with
+- a volunteer t-shirt
+- wpecial CPV volunteer badge (not equivalent to defcon badge)
+- potentially other cool swag
 
 Volunteers are needed July 27-30, 2017.
 
