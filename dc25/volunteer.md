@@ -5,7 +5,7 @@ title: Volunteer Info
 ---
 ## Volunteer Info
 
-The Crypto & Privacy Village would not be possible without volunteers.
+The Crypto & Privacy Village would not be possible without volunteers. <br />
 Thank you to all of our volunteers for helping make the Crypto & Privacy Village at DEF CON possible! 
 
 We are currently looking for volunteers for the CPV @ DEF CON 25 (July 27-30, 2017).
